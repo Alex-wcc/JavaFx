@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FilterandHandlerdemo" />
+        <module name="JavaFxDemo" />
+        <module name="MVCdemo" />
+        <module name="ControlDemo" />
+        <module name="Eventdemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ControlDemo" target="18" />
+      <module name="Eventdemo" target="18" />
+      <module name="FilterandHandlerdemo" target="18" />
+      <module name="JavaFxDemo" target="17" />
+      <module name="moudledemo" target="18" />
+      <module name="MVCdemo" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

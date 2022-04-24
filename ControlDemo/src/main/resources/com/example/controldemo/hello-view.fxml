@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controldemo.HelloController">
+    <children>
+        <Button layoutX="24.0" layoutY="35.0" mnemonicParsing="false" onAction="#showAlert1" text="模态消息框" />
+        <Button layoutX="133.0" layoutY="35.0" mnemonicParsing="false" onAction="#showAlert2" text="警告或出错提示" />
+        <Button layoutX="271.0" layoutY="35.0" mnemonicParsing="false" onAction="#showAlert3" text="用户选择框" />
+        <Button layoutX="380.0" layoutY="35.0" mnemonicParsing="false" onAction="#showAlert4" text="用户输入框" />
+      <CheckBox layoutX="70.0" layoutY="86.0" mnemonicParsing="false" text="CheckBox" />
+      <ComboBox layoutX="208.0" layoutY="82.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="41.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" />
+      <ProgressBar layoutX="280.0" layoutY="161.0" prefWidth="200.0" progress="0.53" />
+      <DatePicker layoutX="250.0" layoutY="204.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ControlDemo/ControlDemo.iml" filepath="$PROJECT_DIR$/ControlDemo/ControlDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eventdemo/Eventdemo.iml" filepath="$PROJECT_DIR$/Eventdemo/Eventdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilterandHandlerdemo/FilterandHandlerdemo.iml" filepath="$PROJECT_DIR$/FilterandHandlerdemo/FilterandHandlerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFxDemo.iml" filepath="$PROJECT_DIR$/JavaFxDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVCdemo/MVCdemo.iml" filepath="$PROJECT_DIR$/MVCdemo/MVCdemo.iml" />
+    </modules>
+  </component>
+</project>

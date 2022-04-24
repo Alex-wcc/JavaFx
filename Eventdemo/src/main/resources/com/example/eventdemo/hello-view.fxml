@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="247.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.eventdemo.HelloController">
+    <children>
+        <Button fx:id="traditionalButton" layoutX="191.0" layoutY="41.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="186.0" text="传统事件响应模式" />
+        <Button fx:id="lambdaButton" layoutX="191.0" layoutY="88.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="186.0" text="Lambda事件响应模式" />
+        <Label fx:id="infoLabel" alignment="CENTER" layoutX="102.0" layoutY="184.0" text="本示例展示三种典型的事件响应编码模式" textAlignment="CENTER" textFill="#372497" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Button fx:id="declarativeButton" layoutX="191.0" layoutY="138.0" mnemonicParsing="false" onAction="#GetRandomNumber" prefHeight="30.0" prefWidth="186.0" text="声明式事件响应模式" />
+    </children>
+</AnchorPane>
+
